@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/changelog/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/changelog/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/extend/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/extend/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/usage/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/usage/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/api/abc/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/api/abc/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/api/constants/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/api/constants/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/api/functions/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/api/functions/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://10.20.22.13:50001/apidocs/pyinst/api/models/</loc>
+         <loc>https://asakiasako.github.io/pyinst-docs/api/models/</loc>
          <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
