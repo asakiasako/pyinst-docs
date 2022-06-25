@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://asakiasako.github.io/pyinst-docs/api/abc/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.16">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.8">
     
     
       
@@ -19,15 +19,16 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.1c3799f8.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.cc9b2e1e.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
         
           
           
-          <meta name="theme-color" content="#009485">
+          <meta name="theme-color" content="#4051b5">
         
+      
       
     
     
@@ -59,7 +60,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="red">
   
     
     
@@ -69,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pyinst.abc.InstrumentMeta" class="md-skip">
+        <a href="#abstract-base-classes" class="md-skip">
           Skip to content
         </a>
       
@@ -166,65 +167,6 @@
       
         
           
-            
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
-        Home
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../usage/" class="md-tabs__link">
-        Usage
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-    
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../models/" class="md-tabs__link md-tabs__link--active">
-        API Reference
-      </a>
-    </li>
-  
-
-      
-    </ul>
-  </div>
-</nav>
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -237,10 +179,8 @@
                   <div class="md-sidebar__inner">
                     
 
-  
 
-
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="PyInst Documentation" class="md-nav__button md-logo" aria-label="PyInst Documentation" data-md-component="logo">
       
@@ -272,57 +212,10 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_1">
-          Home
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Home" data-md-level="1">
-        <label class="md-nav__title" for="__nav_1">
-          <span class="md-nav__icon md-icon"></span>
-          Home
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
         Overview
       </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
-        Changelog
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -344,14 +237,14 @@
       
       
         <label class="md-nav__link" for="__nav_2">
-          Usage
+          Getting Started
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Usage" data-md-level="1">
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Usage
+          Getting Started
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -361,8 +254,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/" class="md-nav__link">
-        Usage
+      <a href="../../getting-started/installation/" class="md-nav__link">
+        Installation
       </a>
     </li>
   
@@ -375,8 +268,36 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extend/" class="md-nav__link">
-        Extend
+      <a href="../../getting-started/tutorial/" class="md-nav__link">
+        Tutorial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/philosophy/" class="md-nav__link">
+        Philosophy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/references/" class="md-nav__link">
+        References
       </a>
     </li>
   
@@ -445,6 +366,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           Abstract Base Classes
@@ -461,12 +384,21 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pyinst.abc" class="md-nav__link">
+    pyinst.abc
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#pyinst.abc.InstrumentMeta" class="md-nav__link">
@@ -1669,8 +1601,114 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functions/" class="md-nav__link">
+        Functions
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Development" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/class-hierarchy/" class="md-nav__link">
+        Class Hierarchy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/extension/" class="md-nav__link">
+        Extension
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        Changelog
+      </a>
     </li>
   
 
@@ -1692,12 +1730,21 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pyinst.abc" class="md-nav__link">
+    pyinst.abc
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#pyinst.abc.InstrumentMeta" class="md-nav__link">
@@ -2895,19 +2942,20 @@
 
 
 
-  <h1>Abstract Base Classes</h1>
+<h1 id="abstract-base-classes">Abstract Base Classes<a class="headerlink" href="#abstract-base-classes" title="Permanent link">¤</a></h1>
+
 
 <div class="doc doc-object doc-module">
 
 
-
+<a id="pyinst.abc"></a>
   <div class="doc doc-contents first">
   
       <p>This module provides abstract base classes to describe different kinds of 
 instruments.</p>
 <p><code>BaseInstrument</code> is the base class of all the Instrument Model classes. 
 <code>VisaInstrument</code> and <code>RawSerialInstrument</code> are classes based on 
-<code>BaseInstrument</code> to describe VISA compliant instruments and serial-port based 
+<code>BaseInstrument</code> to describe VISA compatible instruments and serial-port based 
 instruments.</p>
 <p>There are many other abstract classes to describe a kind of instrument that 
 has some particular functions. For example, <code>OpticalFrequencySetter</code> defines 
@@ -3094,8 +3142,8 @@ interfaces of the same type of instruments can be unified.</p>
 <code class="highlight language-python"><span class="n">brand</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.BaseInstrument.brand" class="headerlink" title="Permanent link">¤</a></h3>
@@ -3128,8 +3176,8 @@ interfaces of the same type of instruments can be unified.</p>
 <code class="highlight language-python"><span class="n">model</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.BaseInstrument.model" class="headerlink" title="Permanent link">¤</a></h3>
@@ -3375,7 +3423,7 @@ interfaces of the same type of instruments can be unified.</p>
   <div class="doc doc-contents ">
   
       <ul>
-<li>For VISA compliant instruments, it is the resource name or alias of 
+<li>For VISA compatible instruments, it is the resource name or alias of 
 the VISA resource.</li>
 <li>For other instruments connected with serial port, it is the port 
 name.</li>
@@ -3398,7 +3446,7 @@ instrument or USB chip.</li>
 <span class="normal">153</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@property</span>
 <span class="k">def</span> <span class="nf">resource_name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    - For VISA compliant instruments, it is the resource name or alias of </span>
+<span class="sd">    - For VISA compatible instruments, it is the resource name or alias of </span>
 <span class="sd">    the VISA resource.</span>
 <span class="sd">    - For other instruments connected with serial port, it is the port </span>
 <span class="sd">    name.</span>
@@ -3545,10 +3593,10 @@ raised during the instance creation, return None.</p>
         Bases: <code><a class="autorefs autorefs-internal" title="pyinst.abc.BaseInstrument" href="#pyinst.abc.BaseInstrument">BaseInstrument</a></code></p>
 
   
-      <p>Base class of VISA compliant instruments that use message based 
+      <p>Base class of VISA compatible instruments that use message based 
 communication.</p>
 <p>VisaInstrument creates a proxy object with <code>pyvisa</code> to communicate with 
-VISA compliant instruments.</p>
+VISA compatible instruments.</p>
 <p>Refer to <a href="https://pyvisa.readthedocs.io/en/latest/index.html">PyVISA Documents</a> 
 for more information.</p>
 
@@ -5023,7 +5071,7 @@ since those perform checks and automatic conversion on the value.</p>
 
   
       <p>Instrument based on raw serial communication.</p>
-<p>Compared to VISA compliant instruments, SerialRawInstrument do not have a 
+<p>Compared to VISA compatible instruments, SerialRawInstrument do not have a 
 common application architecture. It depends on the manufactory.</p>
 <p>SerialRawInstrument creates a proxy object using pySerial to communicate 
 with instruments.</p>
@@ -5826,8 +5874,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_frequency</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.min_frequency" class="headerlink" title="Permanent link">¤</a></h3>
@@ -5862,8 +5910,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_frequency</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.max_frequency" class="headerlink" title="Permanent link">¤</a></h3>
@@ -5898,8 +5946,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_wavelength</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.min_wavelength" class="headerlink" title="Permanent link">¤</a></h3>
@@ -5934,8 +5982,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_wavelength</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.max_wavelength" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6264,8 +6312,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_avg_time</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.min_avg_time" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6298,8 +6346,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_avg_time</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.max_avg_time" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6332,8 +6380,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_pow_cal</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.min_pow_cal" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6366,8 +6414,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_pow_cal</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.max_pow_cal" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7099,8 +7147,8 @@ performed.</p>
 <code class="highlight language-python"><span class="n">min_att</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.min_att" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7143,8 +7191,8 @@ offset value.</p>
 <code class="highlight language-python"><span class="n">max_att</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.max_att" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7187,8 +7235,8 @@ optical attenuation offset value.</p>
 <code class="highlight language-python"><span class="n">min_att_offset</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.min_att_offset" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7221,8 +7269,8 @@ optical attenuation offset value.</p>
 <code class="highlight language-python"><span class="n">max_att_offset</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.max_att_offset" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8504,8 +8552,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">min_bandwidth_in_nm</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.min_bandwidth_in_nm" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8540,8 +8588,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">max_bandwidth_in_nm</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.max_bandwidth_in_nm" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8576,8 +8624,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">min_bandwidth_in_ghz</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.min_bandwidth_in_ghz" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8612,8 +8660,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">max_bandwidth_in_ghz</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.max_bandwidth_in_ghz" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10348,8 +10396,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">min_voltage</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.min_voltage" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10382,8 +10430,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">max_voltage</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.max_voltage" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10416,8 +10464,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">min_current</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.min_current" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10450,8 +10498,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">max_current</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.max_current" class="headerlink" title="Permanent link">¤</a></h3>
@@ -11921,8 +11969,8 @@ must be removed first before proceeding this method.</p>
 <code class="highlight language-python"><span class="n">min_pdl</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePDLE.min_pdl" class="headerlink" title="Permanent link">¤</a></h3>
@@ -11955,8 +12003,8 @@ must be removed first before proceeding this method.</p>
 <code class="highlight language-python"><span class="n">max_pdl</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-property"><code>property</code></small>
       <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePDLE.max_pdl" class="headerlink" title="Permanent link">¤</a></h3>
@@ -12457,19 +12505,16 @@ must be removed first before proceeding this method.</p>
 
               
             </article>
+            
           </div>
         </div>
-        
-          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
-            Back to top
-          </a>
         
       </main>
       
         <footer class="md-footer">
   
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
         <a href="../models/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Instrument Models" rel="prev">
@@ -12508,10 +12553,19 @@ must be removed first before proceeding this method.</p>
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 NeoPhotonics
+    </div>
   
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="mailto:chongjun.lei@neophotonics.com" target="_blank" rel="noopener" title="Mail to the Author" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m511.6 36.86-64 415.1a32.008 32.008 0 0 1-31.65 27.147c-4.188 0-8.319-.815-12.29-2.472l-122.6-51.1-50.86 76.29C226.3 508.5 219.8 512 212.8 512c-11.5 0-20.8-9.3-20.8-20.8v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96 122.3 360.3 19.69 317.5C8.438 312.8.812 302.2.062 289.1s5.47-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z"/></svg>
     </a>
   
 </div>
@@ -12524,10 +12578,10 @@ must be removed first before proceeding this method.</p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.3a4b43e5.min.js"></script>
+      <script src="../../assets/javascripts/bundle.0238f547.min.js"></script>
       
     
   </body>
