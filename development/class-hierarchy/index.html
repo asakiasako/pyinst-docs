@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://asakiasako.github.io/pyinst-docs/development/class-hierarchy/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.8">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.7">
     
     
       
@@ -19,7 +19,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4a0965b7.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
@@ -543,7 +543,6 @@
 <h1 id="class-hierarchy">Class Hierarchy<a class="headerlink" href="#class-hierarchy" title="Permanent link">¤</a></h1>
 <p>The main part of PyInst is a series of <em>Instrument Model</em> classes, which are used to communicate with corresponding instruments. <code>pyinst.abc</code> module is used to define interfaces for these classes. In addition, PyInst includes some constants, error types, and utility functions.</p>
 <p>This page describes the basic inheritance structure of these classes.</p>
-<h1 id="instrument-model-bases">Instrument model bases<a class="headerlink" href="#instrument-model-bases" title="Permanent link">¤</a></h1>
 <p><code>BaseInstrument</code> is the base class of all the <em>Instrument Model</em> classes. It has 2 subclasses: <code>VisaInstrument</code> and <code>RawSerialInstrument</code>. <code>VisaInstrument</code> is the base class to communicate with VISA compatible instruments. <code>RawSerialInstrument</code> is used on instruments that communicate with serial but is not compatible with VISA standard. Every <em>Instrument Model</em> class should inherit the <code>BaseInstrument</code> class or its subclasses.</p>
 <p>The <em>Instrument Model</em> class should also inherit one or more <em>Instrument Type</em> classes in the <code>abc</code> module. These abstract classes in the <code>abc</code> module defines abstract interfaces for the <em>Instrument Model</em> classes.</p>
 <p>Here are some example class diagrams (not all properties and methods are listed):</p>
