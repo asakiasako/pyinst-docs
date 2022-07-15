@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/changelog/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/license/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/api/abc/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/api/constants/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/api/functions/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/api/models/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/development/class-hierarchy/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/development/extension/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/getting-started/installation/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/getting-started/philosophy/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/getting-started/references/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asakiasako.github.io/pyinst-docs/getting-started/tutorial/</loc>
-         <lastmod>2022-06-27</lastmod>
+         <lastmod>2022-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

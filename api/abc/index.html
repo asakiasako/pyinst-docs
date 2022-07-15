@@ -3142,8 +3142,8 @@ interfaces of the same type of instruments can be unified.</p>
 <code class="highlight language-python"><span class="n">brand</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.BaseInstrument.brand" class="headerlink" title="Permanent link">¤</a></h3>
@@ -3176,8 +3176,8 @@ interfaces of the same type of instruments can be unified.</p>
 <code class="highlight language-python"><span class="n">model</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.BaseInstrument.model" class="headerlink" title="Permanent link">¤</a></h3>
@@ -3690,7 +3690,7 @@ returns an error.</p></td>
           <td><code>**kwargs</code></td>
           <td>
           </td>
-          <td><p>directly passed to <code>rm.open_resource</code></p></td>
+          <td><p>Directly passed to <code>rm.open_resource</code>.</p></td>
           <td>
                 <code>{}</code>
           </td>
@@ -3754,7 +3754,7 @@ returns an error.</p></td>
 <span class="sd">            returns an error.</span>
 <span class="sd">        query_delay: Delay in seconds between write and read operations.</span>
 <span class="sd">        encoding: Encoding used for read and write operations.</span>
-<span class="sd">        **kwargs: directly passed to `rm.open_resource`</span>
+<span class="sd">        **kwargs: Directly passed to `rm.open_resource`.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">resource_name</span><span class="o">=</span><span class="n">resource_name</span><span class="p">)</span>
     <span class="n">rm</span> <span class="o">=</span> <span class="n">pyvisa</span><span class="o">.</span><span class="n">ResourceManager</span><span class="p">()</span>
@@ -5874,8 +5874,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_frequency</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.min_frequency" class="headerlink" title="Permanent link">¤</a></h3>
@@ -5910,8 +5910,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_frequency</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.max_frequency" class="headerlink" title="Permanent link">¤</a></h3>
@@ -5946,8 +5946,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_wavelength</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.min_wavelength" class="headerlink" title="Permanent link">¤</a></h3>
@@ -5982,8 +5982,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_wavelength</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.OpticalFrequencySetter.max_wavelength" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6312,8 +6312,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_avg_time</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.min_avg_time" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6346,8 +6346,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_avg_time</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.max_avg_time" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6380,8 +6380,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">min_pow_cal</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.min_pow_cal" class="headerlink" title="Permanent link">¤</a></h3>
@@ -6414,8 +6414,8 @@ None, defaults to query_delay passed to <code>__init__</code> method.</p></td>
 <code class="highlight language-python"><span class="n">max_pow_cal</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOPM.max_pow_cal" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7147,8 +7147,8 @@ performed.</p>
 <code class="highlight language-python"><span class="n">min_att</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.min_att" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7191,8 +7191,8 @@ offset value.</p>
 <code class="highlight language-python"><span class="n">max_att</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.max_att" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7235,8 +7235,8 @@ optical attenuation offset value.</p>
 <code class="highlight language-python"><span class="n">min_att_offset</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.min_att_offset" class="headerlink" title="Permanent link">¤</a></h3>
@@ -7269,8 +7269,8 @@ optical attenuation offset value.</p>
 <code class="highlight language-python"><span class="n">max_att_offset</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeVOA.max_att_offset" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8552,8 +8552,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">min_bandwidth_in_nm</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.min_bandwidth_in_nm" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8588,8 +8588,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">max_bandwidth_in_nm</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.max_bandwidth_in_nm" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8624,8 +8624,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">min_bandwidth_in_ghz</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.min_bandwidth_in_ghz" class="headerlink" title="Permanent link">¤</a></h3>
@@ -8660,8 +8660,8 @@ methods are defined here.</p>
 <code class="highlight language-python"><span class="n">max_bandwidth_in_ghz</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypeOTF.max_bandwidth_in_ghz" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10396,8 +10396,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">min_voltage</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.min_voltage" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10430,8 +10430,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">max_voltage</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.max_voltage" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10464,8 +10464,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">min_current</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.min_current" class="headerlink" title="Permanent link">¤</a></h3>
@@ -10498,8 +10498,8 @@ the connection. If no connection exists for the port, return None.</p>
 <code class="highlight language-python"><span class="n">max_current</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePS.max_current" class="headerlink" title="Permanent link">¤</a></h3>
@@ -11969,8 +11969,8 @@ must be removed first before proceeding this method.</p>
 <code class="highlight language-python"><span class="n">min_pdl</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePDLE.min_pdl" class="headerlink" title="Permanent link">¤</a></h3>
@@ -12003,8 +12003,8 @@ must be removed first before proceeding this method.</p>
 <code class="highlight language-python"><span class="n">max_pdl</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
-      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
       <small class="doc doc-label doc-label-property"><code>property</code></small>
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
   </span>
 
 <a href="#pyinst.abc.TypePDLE.max_pdl" class="headerlink" title="Permanent link">¤</a></h3>
