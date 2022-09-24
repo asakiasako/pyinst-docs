@@ -239,11 +239,35 @@
       
       
       
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_2">
-          User Guide
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">User Guide</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="User Guide" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
@@ -251,6 +275,8 @@
           User Guide
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
           
             
               
@@ -390,6 +416,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../resource-names/" class="md-nav__link">
+        Instrument Resource Names
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../references/" class="md-nav__link">
         References
       </a>
@@ -418,6 +458,16 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_3">
@@ -508,6 +558,12 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
+      
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_4">
@@ -695,6 +751,7 @@
 <li>For other instruments connected via serial port, it is the port name.</li>
 <li>For other instruments connected via USB, it is the S/N of the instrument or its USB chip.</li>
 </ul>
+<p>Please refer to <a href="../resource-names/">Instrument resource names</a> for more information.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>An <em>Instrument Model</em> object is a logical functional unit rather than corresponding to the physical form of the instrument.</p>
@@ -721,15 +778,15 @@
 </ol>
 <p>If you are unable to communicate with an instrument, check the possible causes above.</p>
 <h2 id="use-common-interfaces-for-versatility">Use common interfaces for versatility<a class="headerlink" href="#use-common-interfaces-for-versatility" title="Permanent link">¤</a></h2>
-<p>One of the principles of PyInst is to define a common interface for instruments of the same type or with the same functionality to minimize code modifications when replacing instrument models.</p>
+<p>One of the principles of PyInst is to define a common interface for instruments of the same type or with similar functionality to minimize code modifications when replacing instrument models.</p>
 <p>These interfaces are defined by a series of <a href="../../api/abc/">Abstract Base Classes</a>.</p>
 <p>Instrument types are abstracted to <em>Instrument Type</em> class. An <em>Instrument Type</em> class always starts with the prefix <code>Type</code>, for example: <code>TypeOPM</code>, <code>TypeVOA</code>. All <em>Instrument Model</em> classes inherit from one or more <em>Instrument Type</em> classes.</p>
-<p>If you use those common properties or methods defined by the Instrument Type class, the code remains compatible when you use different instrument models.</p>
+<p>If you use those common properties or methods defined by the Instrument Type class, the code remains compatible with different instrument models.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pyinst</span> <span class="kn">import</span> <span class="n">ModelN7744A</span><span class="p">,</span> <span class="n">ModelAQ2200_215</span>
 <span class="kn">from</span> <span class="nn">pyinst.constants</span> <span class="kn">import</span> <span class="n">OpticalPowerUnit</span>
 
-<span class="n">opm1</span> <span class="o">=</span> <span class="n">ModelN7744A</span><span class="p">(</span><span class="s1">&#39;resource_name_1&#39;</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">opm2</span> <span class="o">=</span> <span class="n">ModelAQ2200_215</span><span class="p">(</span><span class="s1">&#39;resource_name_2&#39;</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">opm1</span> <span class="o">=</span> <span class="n">ModelN7744A</span><span class="p">(</span><span class="s1">&#39;GPIB0::8::INSTR&#39;</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">opm2</span> <span class="o">=</span> <span class="n">ModelAQ2200_215</span><span class="p">(</span><span class="s1">&#39;GPIB0::12::INSTR&#39;</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">operate_opm</span><span class="p">(</span><span class="n">opm</span><span class="p">):</span>
     <span class="n">opm</span><span class="o">.</span><span class="n">set_avg_time</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
@@ -862,7 +919,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes"], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.37e9125f.min.js"></script>
