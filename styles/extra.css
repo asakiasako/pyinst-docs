@@ -5,6 +5,9 @@ div.doc-contents:not(.first) {
   margin-bottom: 20px;
 }
 
-.md-typeset h4 {
-  font-weight: 400;
+.toc-item-span {
+  overflow: hidden;
+  display: inline;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
