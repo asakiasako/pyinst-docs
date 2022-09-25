@@ -4469,7 +4469,7 @@
         
           <li class="md-nav__item">
   <a href="#pyinst.models.ModelNSW.get_usb_devices" class="md-nav__link">
-    <span class="toc-item-span">get_usb_devices()</span>
+    <span class="toc-item-span">get_usb_devices</span>
   </a>
   
 </li>
@@ -4697,7 +4697,7 @@
         
           <li class="md-nav__item">
   <a href="#pyinst.models.ModelE3631A.port" class="md-nav__link">
-    <span class="toc-item-span">port</span>
+    <span class="toc-item-span">port()</span>
   </a>
   
 </li>
@@ -9949,7 +9949,7 @@
         
           <li class="md-nav__item">
   <a href="#pyinst.models.ModelNSW.get_usb_devices" class="md-nav__link">
-    <span class="toc-item-span">get_usb_devices()</span>
+    <span class="toc-item-span">get_usb_devices</span>
   </a>
   
 </li>
@@ -10177,7 +10177,7 @@
         
           <li class="md-nav__item">
   <a href="#pyinst.models.ModelE3631A.port" class="md-nav__link">
-    <span class="toc-item-span">port</span>
+    <span class="toc-item-span">port()</span>
   </a>
   
 </li>
@@ -11280,7 +11280,7 @@ instrument/USB chip.</li>
 correspond with the physical topography of the real-world instrument. </p>
 <p>For example, for OPM N7744A, it has 4 slots of OPM function components. 
 Each slot can be considered as an independent <code>ModelN7744A</code> object.</p>
-<div>      <p><em>Instrument Model</em> classes also support context management, so you can use 
+</div>      <p><em>Instrument Model</em> classes also support context management, so you can use 
 the "with" statement to ensure that the instrument resource is closed after 
 usage.</p>
 
@@ -12172,7 +12172,7 @@ usage.</p>
 with the instrument display value. This is to unify the 
 definition of power calibration across different models of OPMs. 
 Please refer to <code>get_power_value</code> for the math equation.</p>
-<div>
+</div>
   <p><strong>Returns:</strong></p>
   <table>
     <thead>
@@ -13349,7 +13349,7 @@ optical attenuation offset value.</p>
 with the instrument display value. This is to unify the 
 definition of power calibration across different models of OPMs. 
 Please refer to <code>get_power_value</code> for the math equation.</p>
-<div>
+</div>
   <p><strong>Returns:</strong></p>
   <table>
     <thead>
@@ -15201,7 +15201,7 @@ optical attenuation offset value.</p>
 with the instrument display value. This is to unify the 
 definition of power calibration across different models of OPMs. 
 Please refer to <code>get_power_value</code> for the math equation.</p>
-<div>
+</div>
   <p><strong>Returns:</strong></p>
   <table>
     <thead>
@@ -21282,7 +21282,7 @@ the secondary channel is not allowed.</p>
 <ul>
 <li><code>set_avg_time()</code></li>
 </ul>
-<div>
+</div>
   
 
   <p><strong>Parameters:</strong></p>
@@ -22280,7 +22280,7 @@ the secondary channel is not allowed.</p>
   <p class="admonition-title">Note</p>
   <p>Can only be sent to primary channel, and secondary channel is 
 also affected.</p>
-<div>
+</div>
   <p><strong>Parameters:</strong></p>
   <table>
     <thead>
@@ -28516,7 +28516,7 @@ might never be fixed.</p>
 <p>But <code>set_wdm_nalgo</code> works normally.</p>
 <p>Other sub-models of AQ6370 (such as AQ6370C, AQ6370D) are not 
 affected.</p>
-<div>      <p>Options of algorithms:</p>
+</div>      <p>Options of algorithms:</p>
 <ul>
 <li><code>AFIX</code> = AUTO FIX</li>
 <li><code>MFIX</code> = MANUAL FIX</li>
@@ -29337,7 +29337,7 @@ noise level measurements made by the WDM analysis function.</p>
 <div class="admonition note">
   <p class="admonition-title">Note</p>
   <p>AQ6370B has no SMSR3/SMSR4 mode.</p>
-<div>
+</div>
   <p><strong>Parameters:</strong></p>
   <table>
     <thead>
@@ -30718,7 +30718,7 @@ to the moving marker.</p></td>
 <li>A measurement sweep must be performed.</li>
 <li>The sweep should be completed and stoped.</li>
 </ol>
-<div>
+</div>
   <p><strong>Parameters:</strong></p>
   <table>
     <thead>
@@ -32377,7 +32377,7 @@ to the longest, irrespective of the wavelength/frequency mode.</p>
   <p>For model AQ6360, this method takes rather long time 
 (about 60 sec) to return. We are contacting with Yokogawa to see 
 if this issue could be solved.</p>
-<div>
+</div>
   <p><strong>Parameters:</strong></p>
   <table>
     <thead>
@@ -33334,7 +33334,7 @@ if this issue could be solved.</p>
 <li>Device ID: Correspond with the dev_id in the <code>__init__</code> method. 
     Defaults to 0.</li>
 </ul>
-<div>
+</div>
   
 
   <p><strong>Parameters:</strong></p>
@@ -34442,7 +34442,7 @@ if this issue could be solved.</p>
 </li>
 <li>Device ID: None</li>
 </ul>
-<div>
+</div>
   
 
   <p><strong>Parameters:</strong></p>
@@ -40038,7 +40038,7 @@ optical switch.
 
 
 <h3 id="pyinst.models.ModelNSW.get_usb_devices" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">get_usb_devices</span><span class="p">()</span></code>
+<code class="highlight language-python"><span class="n">get_usb_devices</span></code>
   
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-classmethod"><code>classmethod</code></small>
@@ -40696,7 +40696,7 @@ optical switch.
 <div class="admonition notes">
   <p class="admonition-title">Notes</p>
   <p>For common connection mode, M = total number of ports, N = 0.</p>
-<div>
+</div>
       <details class="quote">
         <summary>Source code in <code>pyinst\models.py</code></summary>
         <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">5589</span>
@@ -41749,7 +41749,7 @@ the connection. If no connection exists for the port, return None.</p>
 
 
 <h3 id="pyinst.models.ModelE3631A.port" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">port</span></code>
+<code class="highlight language-python"><span class="n">port</span><span class="p">()</span></code>
   
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-property"><code>property</code></small>
@@ -42641,7 +42641,7 @@ inside the power supply.</p>
 <li>LOW: 0 V to 8.24 V, 0 A to 20.60 A</li>
 <li>HIGH: 0 V to 20.60 V, 0 A to 10.30 A</li>
 </ul>
-<div>
+</div>
   <p><strong>Parameters:</strong></p>
   <table>
     <thead>
@@ -43809,7 +43809,7 @@ trip OCP point, or raise the OCP trip level above the output setting.</p>
   <p class="admonition-title">Note</p>
   <p>Note that the overcurrent condition caused by an external source 
 must be removed first before proceeding this method.</p>
-<div>
+</div>
       <details class="quote">
         <summary>Source code in <code>pyinst\models.py</code></summary>
         <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">6171</span>
@@ -44219,7 +44219,7 @@ setting.</p>
   <p class="admonition-title">Note</p>
   <p>Note that the overvoltage condition caused by an external source 
 must be removed first before proceeding this method.</p>
-<div>
+</div>
       <details class="quote">
         <summary>Source code in <code>pyinst\models.py</code></summary>
         <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">6250</span>
@@ -45668,11 +45668,11 @@ nearest multiple of 5.</p>
 tracking:</p>
 <p>SOP will be set to <code>(s1/A, s2/A, s3/A)</code> where</p>
 <p><code>A = sqrt(s1*s1, s2*s2, s3*s3)</code></p>
-<div>
+</div>
 <div class="admonition note">
   <p class="admonition-title">Note</p>
   <p><code>s1=s2=s3=0</code> is not allowed.</p>
-<div>
+</div>
       <details class="quote">
         <summary>Source code in <code>pyinst\models.py</code></summary>
         <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">6539</span>
@@ -45881,7 +45881,7 @@ tracking:</p>
 <li>Triangle: 2π rad/s</li>
 <li>Tornado: rev/s</li>
 </ul>
-<div>
+</div>
       <details class="quote">
         <summary>Source code in <code>pyinst\models.py</code></summary>
         <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">6577</span>
@@ -47293,7 +47293,7 @@ tracking:</p>
 <li>Rayleigh: rad/s</li>
 <li>Tornado: rev/s</li>
 </ul>
-<div>
+</div>
       <details class="quote">
         <summary>Source code in <code>pyinst\models.py</code></summary>
         <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">6918</span>
@@ -48629,7 +48629,7 @@ ITU C-band:</p>
 </code></pre>
 <p>If the frequency is not on the ITU grid, it will be set to 
 the nearest valid value, and no exception will be raised.</p>
-<div>
+</div>
   <p><strong>Parameters:</strong></p>
   <table>
     <thead>
@@ -48933,7 +48933,7 @@ the nearest valid value, and no exception will be raised.</p>
   <p>The pmd and sopmd setting of the PMD-1000 is not continuous. The 
 pmd and sopmd will be set to the nearest supported values, so the 
 real value will not be exactly the same with the setting values.</p>
-<div>
+</div>
       <details class="quote">
         <summary>Source code in <code>pyinst\models.py</code></summary>
         <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">7307</span>
